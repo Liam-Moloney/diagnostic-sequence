@@ -379,3 +379,29 @@ gap: 12px;
 }
 
 }
+/* Document Viewer */
+
+.document-viewer {
+
+margin-top: 20px;
+margin-bottom: 40px;
+
+border: 1px solid #e5e7eb;
+
+border-radius: 6px;
+
+overflow: hidden;
+
+background: #ffffff;
+
+}
+
+.document-viewer iframe {
+
+width: 100%;
+
+height: 520px;
+
+border: none;
+
+}
