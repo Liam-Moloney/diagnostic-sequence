@@ -91,3 +91,35 @@ font-size: 14px;
 color: #6b7280;
 
 }
+.timeline {
+border-left: 2px solid #d1d5db;
+margin-top: 40px;
+padding-left: 20px;
+}
+
+.event {
+margin-bottom: 30px;
+position: relative;
+}
+
+.event::before {
+content: "";
+width: 10px;
+height: 10px;
+background: #2b5a7d;
+border-radius: 50%;
+position: absolute;
+left: -26px;
+top: 6px;
+}
+
+.date {
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+color: #1f2933;
+margin-bottom: 4px;
+}
+
+.content {
+color: #333;
+}
