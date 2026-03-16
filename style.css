@@ -123,3 +123,18 @@ margin-bottom: 4px;
 .content {
 color: #333;
 }
+
+.doc {
+
+margin-bottom: 30px;
+padding-bottom: 20px;
+border-bottom: 1px solid #e5e7eb;
+
+}
+
+.doc h3 {
+
+font-family: 'Inter', sans-serif;
+margin-bottom: 6px;
+
+}
